@@ -6,3 +6,7 @@ from django.http import HttpResponse
 
 def signup(request):
     return HttpResponse("signup testing")
+
+
+def login(request):
+    return HttpResponse("login testing")
